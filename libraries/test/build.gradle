@@ -1,0 +1,9 @@
+apply from: "$rootDir/config/dependencies/feature_dependencies.gradle"
+
+dependencies {
+    implementation project(":libraries:core")
+
+    api Deps.test.junit
+
+    api Deps.coroutines.test
+}
