@@ -12,9 +12,7 @@ class ExampleTest : BaseTestCase() {
     @Test
     fun myTest(){
         launch().run {
-            step("device"){
-                device.uiDevice.pressMenu()
-            }
+
         }
     }
 }
